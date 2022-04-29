@@ -102,18 +102,17 @@ section {
     margin: 0 0 5px 15px;
 }
 #right > #vertical {
-    writing-mode: vertical-rl;
-    text-orientation: mixed;
+    transform: rotate(90deg);
     position: absolute;
-    right: 500px;
+    right: 250px;
     font-size: 25px;
     color: #8ba3a7;
     background: #617d81;
     text-align: center;
     text-transform: uppercase;
-    height: 460px;
-    padding: 0 25px 0 25px;
-    margin-right: 0;
+    width: 430px;
+    padding: 25px 10px 25px 10px;
+    margin: 195px 25px 0 115px;
 }
 #right > #horizontal {
     position: absolute;
@@ -146,9 +145,6 @@ footer {
     height: 50px;
     color: #7f8382;
     background-color: #000807;
-}
-footer > div {
-
 }
 footer a {
     padding: 5px;
