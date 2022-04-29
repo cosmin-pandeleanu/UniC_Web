@@ -1,0 +1,175 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 25px;
+    color: #cccccc;
+    font-family: sans-serif;
+}
+
+/* Navigation Bar */
+nav {
+    margin: 1% 1% 0 2%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    font-family: 'Radio Canada', sans-serif;
+}
+nav a {
+    text-decoration: none;
+    color:#283553;
+    margin: 0 30px 0 30px;
+}
+nav a:hover {
+    color: #ecc42a;
+}
+nav > div > #logo {
+    position: relative;
+    bottom:20px;
+}
+
+#nav_center, #sign_in {
+    text-transform: uppercase;
+}
+
+/* Sign In Button */
+#sign_in > a {
+    color: white;
+    background: #617d81;
+    border-radius: 20px;
+    padding: 5px 15px 5px 15px;
+    align-content: flex-end;
+}
+
+/* Content */
+section {
+    padding-left: 5%;
+}
+#content {
+    display: flex;
+}
+#left {
+    align-content: flex-start;
+}
+#right {
+    align-content: flex-end;
+}
+
+/*   Left Section   */
+#left > h1 {
+    font-size: 100px;
+    font-family:"Roboto Condensed", sans-serif;
+}
+#left > #h1_1 {
+    color: #617d81;
+    margin: 220px 0 0 0;
+}
+#left > #h1_2 {
+    color: #ab9683;
+    margin: 0;
+}
+#left > p {
+    width: 55%;
+    margin: 1% 0 2% 0;
+    font-size: 16px;
+    line-height: 30px;
+}
+#left > button {
+    color: white;
+    font-size: 25px;
+    background: #617d81;
+    border: #617d81 solid 1px;
+    border-radius: 25px;
+    padding: 10px 35px 10px 35px;
+}
+
+
+/*   Right Section   */
+/* Image Illustration */
+#right > img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    margin: 0 0 5px 15px;
+}
+#right > #vertical {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    position: absolute;
+    right: 500px;
+    font-size: 25px;
+    color: #8ba3a7;
+    background: #617d81;
+    text-align: center;
+    text-transform: uppercase;
+    height: 460px;
+    padding: 0 25px 0 25px;
+    margin-right: 0;
+}
+#right > #horizontal {
+    position: absolute;
+    right: 0;
+    margin-top: 380px;
+    font-size: 25px;
+    color: #c1b2a4;
+    background: #ab9683;
+    text-align: center;
+    text-transform: uppercase;
+    width: 450px;
+    padding: 25px 0 25px 0;
+}
+#right > p {
+    position: absolute;
+    right: 0;
+    margin-top: 550px;
+    width: 560px;
+    padding-right: 20px;
+    line-height: 30px;
+}
+
+
+/* Footer */
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    color: #7f8382;
+    background-color: #000807;
+}
+footer > div {
+
+}
+footer a {
+    padding: 5px;
+    text-decoration: none;
+    color: grey;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+footer > #left_ {
+    position: absolute;
+    left: 0;
+    top: 10px;
+}
+footer > #left_ > a {
+    margin-left:35px;
+}
+footer > #right_ {
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
+footer > #right_ > a {
+    margin-right:35px;
+}
