@@ -70,6 +70,8 @@ section {
 }
 #left > #h1_1 {
     color: #617d81;
+    /* nu este ok sa abuzam de tehnicile de spatiere pentru layout, genereaza o implementare manuala care pe rezolutii diferite de a ta nu vor mai respecta layutul,,am adaugat un scurt video ca sa intelegi mai bine si atentie ca nu vb de mobile ci doar doar de rezolutie mai mica, diferita de a ta */
+    /* am vazut ca si mai jos te-ai bazat foarte mult pe spatiere ca tehnica principala de layut iar site-ul nu mai e usabil pe rezolutii mai mici, sugerez sa lasi continutul sa dicteze dimensiunea, iar spatierea de folosit moderat */
     margin: 220px 0 0 0;
 }
 #left > #h1_2 {
@@ -95,6 +97,7 @@ section {
 /*   Right Section   */
 /* Image Illustration */
 #right > img {
+    /* cand folosim absolute este ok sa avem o referinta relative, in cazul asta referint este viewport-ul care este diferit de la user la user */
     position: absolute;
     top: 0;
     right: 0;
