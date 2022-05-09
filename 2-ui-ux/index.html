@@ -11,7 +11,9 @@
 <body>
     <main>
         <nav>
+            <!-- nu recomand inline styling, mai ales ca putea fi adaugat ca si external -->
             <div style="align-content: flex-start">
+                <!-- recomand stilizare prin css pt imagini in locul atributelor de width/height cu acelasi scop -->
                 <img src="assets/logo.png" alt="log" width="50">
                 <a href="#" id="logo">Your Logos</a>
             </div>
@@ -27,6 +29,7 @@
             </div>
         </nav>
         <div id="content">
+            <!-- pentru denumirile claselor este ok sa te raportezi la continut si nu asa mult la pozitia in pagina, la o versiune mobile a site-ului acestea pot sa nu mai fie relevate si sa trebuiasca sa punem elementele pe axa verticala -->
             <section id="left">
                 <h1 id="h1_1">UI/UX</h1>
                 <h1 id="h1_2">DESIGN</h1>
@@ -34,7 +37,9 @@
                 <button>Click me</button>
             </section>
             <section id="right">
+                <!-- aceeasi observatie de mai sus cu referire la atributul width -->
                 <img src="assets/illustration-buildings.jpg" alt="illustration" width="450px">
+                <!-- acese elemente nu au rol semantic de titluri pe pagina, pot fi folosite div-uri nu trebuie sa fortam heading tags unde nu este cazul -->
                 <h2 id="vertical">Business Project</h2>
                 <h2 id="horizontal"> Business Plan</h2>
                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
